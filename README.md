@@ -97,10 +97,10 @@ gemini extensions update superpowers
 ### Qwen Code
 ```bash
 # In your project directory
-git clone https://github.com/obra/superpowers.git ~/.qwen/superpowers
+git clone https://github.com/jojo1992341/superpowers.git ~/.qwen/superpowers
 ln -s ~/.qwen/superpowers/QWEN.md ./QWEN.md
 ## for Windows
-git clone https://github.com/obra/superpowers.git %USERPROFILE%/.qwen/superpowers
+git clone https://github.com/jojo1992341/superpowers.git %USERPROFILE%/.qwen/superpowers
 mklink QWEN.md %USERPROFILE%\.qwen\superpowers\QWEN.md
 ```
 
