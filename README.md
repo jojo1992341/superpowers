@@ -99,6 +99,9 @@ gemini extensions update superpowers
 # In your project directory
 git clone https://github.com/obra/superpowers.git ~/.qwen/superpowers
 ln -s ~/.qwen/superpowers/QWEN.md ./QWEN.md
+## for Windows
+git clone https://github.com/obra/superpowers.git %USERPROFILE%/.qwen/superpowers
+mklink QWEN.md %USERPROFILE%\.qwen\superpowers\QWEN.md
 ```
 
 Qwen Code reads `QWEN.md` automatically at session start.
