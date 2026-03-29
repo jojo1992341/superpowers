@@ -26,6 +26,12 @@ The subagent review loop (dispatching a fresh agent to review plans/specs) doubl
 - **codex-tools** — added environment detection and Codex App finishing sections for worktree-aware skills (by @arittr)
 - **Design spec** — added Codex App compatibility design spec (PRI-823) covering read-only environment detection, worktree-safe skill behavior, and sandbox fallback patterns (by @arittr)
 
+### Qwen Code
+
+- **Qwen Code extension** — native support via `QWEN.md` context file and `qwen-extension.json` manifest. Uses the same `@file` import pattern as Gemini CLI.
+- **Qwen Code tool mapping** — `skills/using-superpowers/references/qwen-tools.md` translates Claude Code tool names (`Read`, `Write`, `Bash`, `Task`) to Qwen Code equivalents (`read_file`, `write_file`, `execute_command`). Documents subagent limitation and fallback to `executing-plans`.
+- Install instructions: `docs/README.qwen.md`
+
 ## v5.0.5 (2026-03-17)
 
 ### Bug Fixes
