@@ -94,6 +94,17 @@ To update:
 gemini extensions update superpowers
 ```
 
+### Qwen Code
+```bash
+# In your project directory
+git clone https://github.com/obra/superpowers.git ~/.qwen/superpowers
+ln -s ~/.qwen/superpowers/QWEN.md ./QWEN.md
+```
+
+Qwen Code reads `QWEN.md` automatically at session start.
+
+**Detailed docs:** [docs/README.qwen.md](docs/README.qwen.md)
+
 ### Verify Installation
 
 Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
