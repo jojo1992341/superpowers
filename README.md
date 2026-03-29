@@ -96,12 +96,7 @@ gemini extensions update superpowers
 
 ### Qwen Code
 ```bash
-# In your project directory
-git clone https://github.com/jojo1992341/superpowers.git ~/.qwen/superpowers
-ln -s ~/.qwen/superpowers/QWEN.md ./QWEN.md
-## for Windows
-git clone https://github.com/jojo1992341/superpowers.git %USERPROFILE%/.qwen/superpowers
-mklink QWEN.md %USERPROFILE%\.qwen\superpowers\QWEN.md
+/extensions install https://github.com/jojo1992341/superpowers
 ```
 
 Qwen Code reads `QWEN.md` automatically at session start.
